@@ -1,0 +1,23 @@
+.matrix_item {
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgb(58, 29, 189);
+  text-align: center;
+  color: rgb(25, 183, 223);
+  font-size: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 1px;
+  position: relative;
+  z-index: 99999;
+  background-size: 0;
+  background-image: url('./../../assets/images/BlueColor.png');
+  background-repeat: no-repeat;
+}
+.matrix_item:hover {
+  cursor: pointer;
+  background-color: aquamarine;
+  user-select: none;
+}

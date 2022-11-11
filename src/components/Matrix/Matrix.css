@@ -1,0 +1,62 @@
+.matrix__buttons_area {
+  display: flex;
+}
+
+.matrix__buttons_area__button {
+  width: 118px;
+  height: 20px;
+  border: 1px solid rgb(58, 29, 189);
+  text-align: center;
+  color: rgb(25, 183, 223);
+  font-size: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 1px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.matrix__input_area {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #11998e;
+}
+.input_area__input {
+  border-image: linear-gradient(to right, #11998e, #38ef7d);
+  border-width: 0 0 3px;
+  border-image-slice: 1;
+  padding: 5px;
+  color: #11998e;
+}
+.input_area__input:focus {
+  outline: none;
+  color: #11998e;
+}
+.input_area__label {
+  color: #11998e;
+  margin-top: 20px;
+}
+.matrix__input_area:first-child {
+  margin-top: none;
+}
+.input_area__error_label {
+  color: red;
+}
+.matrix__input_area__button {
+  background: linear-gradient(to right, #11998e, #38ef7d);
+  margin-top: 20px;
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+}
+.matrix__input_area__button:hover {
+  box-shadow: 0 0 10px #11998e;
+  margin-top: 20px;
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+}
